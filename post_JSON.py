@@ -47,7 +47,7 @@ TempIn ="%.4f" %temp
 HumiIn ="%.4f" %humidity
 #covert to json
 json_map = {}
-json_map["DeviceName"] = "Mac-test"
+json_map["DeviceName"] = "YourDeviceName"
 json_map["TempIn"] = TempIn
 json_map["HumiIn"] = HumiIn
 json_map["Moment"] = DATE
@@ -59,5 +59,5 @@ print "JSON here"
 print result
 
 print "\nstart use curl\n"
-subprocess.call(["curl", "-H", "Content-Type:application/json", "-X", "POST", "-d", result, "Invoke url of your APIgateway Deploy Stage"], stdout=True)
+subprocess.call(["curl", "-H", "Content-Type:application/json", "-X", "POST", "-d", result, "http://InvokeURLofYourAPIgatewayDeployStage"], stdout=True)
 print "upload DONE"
