@@ -9,4 +9,5 @@ AWS DynamoDB
 
 AWS Lambda
 
+# Note
 This project was deveoped under MacOS env.
