@@ -8,3 +8,5 @@ AWS API Gateway
 AWS DynamoDB
 
 AWS Lambda
+
+This project was deveoped under MacOS env.
