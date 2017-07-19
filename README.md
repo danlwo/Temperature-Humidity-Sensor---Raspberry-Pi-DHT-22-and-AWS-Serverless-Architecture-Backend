@@ -1,2 +1,6 @@
-# post_JSON_to_AWS_DynamoDB.py
-A template for python script which can put JSON item to AWS DynamoDB table through APIgateway.
+# Components 
+Raspberry Pi 3 model B V1.2
+DHT 22 temperature & humidity sensor
+AWS API Gateway
+AWS DynamoDB
+AWS Lambda
