@@ -1,6 +1,6 @@
 # Please read wiki for instructions
 
-Make sensor device from Raspberry Pi % DHT22 sensor module
+1. Make sensor device from Raspberry Pi % DHT22 sensor module
 https://github.com/danlwo/Temperature-Humidity-Sensor---Raspberry-Pi-DHT-22-and-AWS-Serverless-Architecture-Backend/wiki/Make-Raspberry-Pi-&-DHT-22-Sensor-Device
 
 # Components 
