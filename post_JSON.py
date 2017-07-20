@@ -1,5 +1,5 @@
 # !/usr/bin/python
-# get data and put it to api gateway
+# get DHT22 reading data and put it to AWS API Gateway
 # use curl command
 # Created by Chris Hsu
 # Modified by Dan Lwo
