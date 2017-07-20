@@ -1,3 +1,6 @@
+# Created by Chris Hsu
+# Modified by Dan Lwo
+
 from __future__ import print_function
 import smtplib
 import boto3
