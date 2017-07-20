@@ -1,3 +1,5 @@
+# Please read wiki for instructions
+
 # Components 
 Raspberry Pi 3 model B V1.2
 
