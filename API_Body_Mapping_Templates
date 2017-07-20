@@ -1,0 +1,24 @@
+{ 
+    "TableName": "SvrRoomSensorDB",
+    "Item": 
+    {
+	    "UUID": {
+            "S": "$context.requestId"
+        },
+        "Moment": {
+            "S": "$input.path('$.Moment')"
+        },
+        "DeviceName": {
+            "S": "$input.path('$.DeviceName')"
+        },
+        "IP": {
+            "S": "$input.path('$.Ip')"
+        },
+        "Temperature": {
+            "N": "$input.path('$.TempIn')"
+        },
+        "Humidity": {
+            "N": "$input.path('$.HumiIn')"
+        }
+    }
+}
